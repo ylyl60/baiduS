@@ -32,7 +32,7 @@ class BDC(object):
                             e = url_title(b)
                         else:
                             e = '网站失效'
-                        #print b+'-----'+c+'-----'+d+'-----'+e
+                        print b+'-----'+c+'-----'+d+'-----'+e
                         fp.write(b+'------'+c+'-----'+d+'-----'+e)
                         #print(i)
                         fp.write("\n")
